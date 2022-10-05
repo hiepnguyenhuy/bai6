@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<!HIEN THI KET QUA HAM ALERT-->
+<button type="button " onclick="showMessage();">Click Me!</button>
+      <script>
+        function showMessage() {
+          alert('Xin chào')
+        }
+      </script>
+<!Hien thi ket qua ham document.getelement-->
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        function showMessage() {
+            document.getElementById('messageDiv').innerHTML='Xin chào!';
+
+        }
+    </script>
+<!Hien thi ket qua ham document.write-->
+<button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        function showMessage(){
+            document.write('Xin chào!');
+        }
+    </script>
+<!Hien thi ket qua ham console-->
+<button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        function showMessage(){
+            console.log('Xin chào!');
+        }
+    </script>
+</body>
+</html>
